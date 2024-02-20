@@ -8,6 +8,7 @@ const database = {
     fish: [
         {
             id: 1,
+            image: "images/cannibal squirtle.jpg",
             name: "cannibal squirtle",
             species: "snapping turtle",
             food: "other turtles",
@@ -16,44 +17,23 @@ const database = {
         },
         {
             id: 2,
-            name: "Fiona",
-            species: "Regal Tang",
-            food: "algae",
+            image: "images/SnickeringSwordfish.jpg",
+            name: "chuckles",
+            species: "Snickering Swordfish",
+            food: "Fish with no sense of Humor",
             size: 4,
             harvest_location: "Great Barrier Reef"
         },
         {
             id: 3,
+            image: "images/ClownFish.jpg",
             name: "Gus",
             species: "Clownfish",
-            food: "plankton",
+            food: "He only smokes",
             size: 2,
             harvest_location: "Anemone City"
-        },
-        {
-            id: 4,
-            name: "Lola",
-            species: "Royal Gramma",
-            food: "small invertebrates",
-            size: 2.5,
-            harvest_location: "Caribbean Sea"
-        },
-        {
-            id: 5,
-            name: "Max",
-            species: "Mandarin Fish",
-            food: "copepods",
-            size: 1.5,
-            harvest_location: "Philippines"
-        },
-        {
-            id: 6,
-            name: "Nemo",
-            species: "Clownfish",
-            food: "plankton",
-            size: 2.5,
-            harvest_location: "Anemone City"
         }
+     
     ]
 }
 

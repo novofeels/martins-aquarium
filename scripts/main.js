@@ -6,9 +6,15 @@ Quotes to appear above the list of locations.
 Details for each fish including image, species, length, name, harvest location, and diet.*/
 
 import { getFish } from './database.js'
+import { FishList } from './Fishies.js'
 
 const allFish = getFish()
 
 for (const fish of allFish) {
     console.log(fish)
 }
+
+const parentHTMLElement = document.querySelector(".fish-list")
+
+
+parentHTMLElement.innerHTML = FishList()

@@ -1,0 +1,17 @@
+.fish-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+    align-items: flex-start; /* Align items to the start vertically */
+    margin: 40px 20px;
+}
+
+.fish__item {
+    margin: 5px;
+}
+
+.fish-card {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
