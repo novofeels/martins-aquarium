@@ -4,24 +4,34 @@
   justify-content: space-around;
   align-items: flex-start;
   font-family: fantasy; 
+  background-color: null;
+  width: 70%; /* Set the width of the fish list */
+  float: left; /* Align the fish list to the left side */
  
 }
+#aside {
+  width: 30%; /* Set the width of the aside */
+  float: right; /* Add some margin between the fish list and the aside */
+  background-color: transparent;
+  color: whitesmoke
+}
 .fish__item {
-  
+  color: whitesmoke
 }
 
 .fish-card {
-   padding: 20px 40px;
-   border: 1px solid black
+   padding: 20px 80px;
+   
+   
 }
 
 .title {
-        background-image: URL('../images/backgroundJellys.webp');
-        background-size: cover; /* Adjusts the background image size */
-        color: whitesmoke; /* Sets the text color to white for better contrast */
-        padding: 20px; /* Adds padding to the title for better spacing */
-        text-align: center; /* Centers the text horizontally */
-        font-size: 40px;
+  background-color: transparent; /* White with 50% opacity */
+  backdrop-filter: blur(1px); /* Apply blur effect to background */
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  color: white
       }
 
 
@@ -31,3 +41,26 @@
     font-style: normal;
   }
   
+  .index-body {
+    background-image: URL("../images/B L A C K & W H I T E.jpg");
+    background-size: cover;
+    background-repeat: no-repeat
+  }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.quotes-section{
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.harvest-body{
+  background-image: URL("../images/backgroundJellys.webp")
+}
