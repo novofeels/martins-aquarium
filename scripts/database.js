@@ -21,7 +21,7 @@ const database = {
             name: "chuckles",
             species: "Snickering Swordfish",
             food: "Fish with no sense of Humor",
-            size: 4,
+            size: 5,
             harvest_location: "Great Barrier Reef"
         },
         {
@@ -32,11 +32,60 @@ const database = {
             food: "He only smokes",
             size: 2,
             harvest_location: "Anemone City"
+        },
+        {
+            id: 3,
+            image: "images/ClownFish.jpg",
+            name: "Gus",
+            species: "Clownfish",
+            food: "He only smokes",
+            size: 2,
+            harvest_location: "Anemone City"
+        },
+        {
+            id: 3,
+            image: "images/ClownFish.jpg",
+            name: "Gus",
+            species: "Clownfish",
+            food: "He only smokes",
+            size: 6,
+            harvest_location: "Anemone City"
+        },
+        {
+            id: 3,
+            image: "images/ClownFish.jpg",
+            name: "Gus",
+            species: "Clownfish",
+            food: "He only smokes",
+            size: 10,
+            harvest_location: "Anemone City"
         }
      
+    ],
+    locations: [
+        {
+            name: "Tropical Paradise",
+            image: "images/clearBlueWater.jpg",
+            description: "A beautiful tropical island with crystal clear waters."
+        },
+        {
+            name: "Mystic Reef",
+            image: "images/clearBlueWater.jpg",
+            description: "An enchanting reef teeming with diverse marine life."
+        },
+        {
+            name: "Deep Sea Canyon",
+            image: "images/clearBlueWater.jpg",
+            description: "A mysterious underwater canyon with deep, dark waters."
+        }
+        // Add more location objects as needed
     ]
 }
 
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
+}
+
+export const getLocations = () => {
+    return database.locations.map(locations => ({...locations}))
 }
