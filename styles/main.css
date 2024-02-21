@@ -1,17 +1,33 @@
 .fish-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center items horizontally */
-    align-items: flex-start; /* Align items to the start vertically */
-    margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: fantasy; 
+ 
 }
-
 .fish__item {
-    margin: 5px;
+  
 }
 
 .fish-card {
-    margin: 10px;
-    border: 1px solid black;
-    padding: 10px;
+   padding: 20px 40px;
+   border: 1px solid black
 }
+
+.title {
+        background-image: URL('../images/backgroundJellys.webp');
+        background-size: cover; /* Adjusts the background image size */
+        color: whitesmoke; /* Sets the text color to white for better contrast */
+        padding: 20px; /* Adds padding to the title for better spacing */
+        text-align: center; /* Centers the text horizontally */
+        font-size: 40px;
+      }
+
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

@@ -17,7 +17,7 @@ export const FishList = () => {
             <div class="fish__name fish__item">name: ${fish.name}</div>
             <div class="fish__species fish__item">species: ${fish.species}</div>
             <div class="fish__length fish__item">size: ${fish.size}</div>
-            <div class="fish__location fish__item">harvest location:${fish.harvest_location}</div>
+            <div class="fish__location fish__item">harvest location:<a style="cursor: pointer;">${fish.harvest_location}</a></div>
             <div class="fish__diet fish__item">diet: ${fish.food}</div>
         </section>
 `
