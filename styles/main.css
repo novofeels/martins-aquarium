@@ -17,13 +17,18 @@
   backdrop-filter: blur(5px);
 }
 .fish__item {
-  color: whitesmoke
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .fish-card {
    padding: 20px 80px;
-   backdrop-filter: blur(5px);
+   backdrop-filter: blur(1px);
    
+}
+
+.fish-card img {
+  border: 2px solid white;
 }
 
 .title {
@@ -108,4 +113,10 @@ footer {
 }
 h2 {
   color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 28px;
+}
+
+#aside-paragraph {
+  font-size: larger;
 }

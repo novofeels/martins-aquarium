@@ -33,9 +33,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const locationsList = document.querySelector(".locations-list");
     const quotesSection = document.querySelector(".quotes-section");
     const aside = document.getElementById("aside");
-    const body = document.body; // Get reference to the body element
+    const body = document.body; 
 
-    // Initially hide the locations list, quotes section, and aside
+    // Initially hide the locations list, quotes section, but not aside
     locationsList.style.display = "none";
     quotesSection.style.display = "none";
     aside.style.display = "block";
