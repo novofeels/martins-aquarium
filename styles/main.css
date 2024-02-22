@@ -13,7 +13,8 @@
   width: 30%; /* Set the width of the aside */
   float: right; /* Add some margin between the fish list and the aside */
   background-color: transparent;
-  color: whitesmoke
+  color: whitesmoke;
+  backdrop-filter: blur(5px);
 }
 .fish__item {
   color: whitesmoke
@@ -21,16 +22,16 @@
 
 .fish-card {
    padding: 20px 80px;
-   
+   backdrop-filter: blur(5px);
    
 }
 
 .title {
-  background-color: transparent; /* White with 50% opacity */
-  backdrop-filter: blur(1px); /* Apply blur effect to background */
+  background-color: transparent; 
+  backdrop-filter: blur(5px); 
   padding: 20px;
   text-align: center;
-  font-size: 36px;
+  font-size: 46px;
   color: white
       }
 
@@ -42,9 +43,11 @@
   }
   
   .index-body {
-    background-image: URL("../images/B L A C K & W H I T E.jpg");
-    background-size: cover;
-    background-repeat: no-repeat
+    background-image: url("../images/better background.webp");
+    background-size: cover; /* Ensure the entire container is covered by the background image */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image horizontally and vertically */
+    background-attachment: fixed; /* Fix the background image in the viewport */
   }
 
 footer {
@@ -61,6 +64,46 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.harvest-body{
-  background-image: URL("../images/backgroundJellys.webp")
+
+.locations-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-family: fantasy; 
+  background-color: null;
+  
+  float: left; /* Align the fish list to the left side */
+  width: 70%; /* Adjust the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+.location-card {
+  padding: 20px 80px;
+  color: white
+  
+}
+.locations-list img {
+  width: 300px; /* Adjust the width to your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+.nav-links {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+  display: inline-block; /* Display list items horizontally */
+}
+
+.nav-links a {
+  display: block; /* Ensure links fill their list item containers */
+  padding: 10px 20px; /* Add padding around links */
+  text-decoration: none; /* Remove default underline */
+  color: white; /* Set link color */
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Add background color on hover */
+  /* Adjust color and other styles as needed */
 }

@@ -65,18 +65,18 @@ const database = {
     locations: [
         {
             name: "Tropical Paradise",
-            image: "images/clearBlueWater.jpg",
-            description: "A beautiful tropical island with crystal clear waters."
+            image: "images/tropical paradise.jpg",
+            description: "A beautiful tropical island with crystal clear waters and magical dolphins. i fell in love with one before she left me for a young killer whale. they always go for bad boys."
         },
         {
             name: "Mystic Reef",
-            image: "images/clearBlueWater.jpg",
-            description: "An enchanting reef teeming with diverse marine life."
+            image: "images/mysitcalerreef.jpg",
+            description: "An enchanting reef teeming with diverse marine life. i stole what i could."
         },
         {
             name: "Deep Sea Canyon",
-            image: "images/clearBlueWater.jpg",
-            description: "A mysterious underwater canyon with deep, dark waters."
+            image: "images/deepseacanyon.jpeg",
+            description: "A mysterious underwater canyon with deep, dark waters. not so mysterious anymore i mapped that whole bitch out."
         }
         // Add more location objects as needed
     ]

@@ -17,8 +17,7 @@ export const renderLocationList = () => {
         </section>`;
     }
     
-    htmlString += '</article>';
-    
+    htmlString += '</article>'
    return htmlString
 };
 
