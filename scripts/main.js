@@ -52,6 +52,6 @@ document.addEventListener("DOMContentLoaded", function() {
         quotesSection.style.display = "block"; // Show the quotes section
         aside.style.display = "none"; // Hide the aside
         // Change background image for the locations list
-        body.style.backgroundImage = "url('images/hidefjellies copy.jpg')";
+        body.style.backgroundImage = "url('images/new jellies for white font.avif')";
     });
 });
