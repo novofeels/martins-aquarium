@@ -2,6 +2,8 @@ import {FishList} from "./Fishies.js"
 import { getLocations } from "./database.js"
 import { renderLocationList } from "./locations.js"
 import { getFish } from "./database.js"
+import { sortFish } from "./Fishies.js";
+import { renderQuoteList } from "./tips.js";
 
 /*let parentHTMLElement = document.querySelector(".fish-list")
 parentHTMLElement.innerHTML = FishList()
@@ -18,6 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let parentHTMLElement2 = document.querySelector(".locations-list");
     console.log(parentHTMLElement2);
     parentHTMLElement2.innerHTML = renderLocationList();
+
+    let quotesSection = document.querySelector(".quotes-section");
+    quotesSection.innerHTML = renderQuoteList();
 });
 
 

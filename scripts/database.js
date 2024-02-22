@@ -79,6 +79,16 @@ const database = {
             description: "A mysterious underwater canyon with deep, dark waters. not so mysterious anymore i mapped that whole bitch out."
         }
         // Add more location objects as needed
+    ],
+    quotes: [
+        {
+            text: "Always wait until the last minute to start anything. The adrenaline rush will make you more productive!",
+            author: "my ADHD"
+        },
+        {
+            text: "If the bathroom door is locked, try jiggling the handle. if that doesnt work try the jiggle/pull.",
+            author: "the guy outside the stall I'm currently using"
+        }
     ]
 }
 
@@ -89,3 +99,7 @@ export const getFish = () => {
 export const getLocations = () => {
     return database.locations.map(locations => ({...locations}))
 }
+
+export const getQuotes = () => {
+    return database.quotes.map(quotes => ({ ...quotes }));
+};
