@@ -89,6 +89,7 @@ footer {
 .locations-list img {
   width: 300px; /* Adjust the width to your desired size */
   height: auto; /* Maintain aspect ratio */
+  border: 2px solid white
 }
 .nav-links {
   list-style: none; /* Remove default list styles */
@@ -119,4 +120,9 @@ h2 {
 
 #aside-paragraph {
   font-size: larger;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
