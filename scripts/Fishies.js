@@ -58,7 +58,7 @@ export const FishList = () => {
 
     // Iterate over each category of fish
     for (const category in fishes) {
-        if (fishes.hasOwnProperty(category)) {
+        
             // Create a header for the category
             htmlString += `<h2>${category}</h2>`;
             
@@ -73,7 +73,7 @@ export const FishList = () => {
                     <div class="fish__diet fish__item">diet: ${fish.food}</div>
                 </section>`;
             }
-        }
+        
     }
     htmlString += `</article>`;
 

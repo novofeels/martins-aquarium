@@ -86,8 +86,8 @@ const database = {
             author: "my ADHD"
         },
         {
-            text: "If the bathroom door is locked, try jiggling the handle. if that doesnt work try the jiggle/pull.",
-            author: "the guy outside the stall I'm currently using"
+            text: "If the door is locked, try jiggling the handle. if that doesnt work try the jiggle/pull.",
+            author: "the guy outside the public bathroom I'm currently using"
         }
     ]
 }
